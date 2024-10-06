@@ -1,0 +1,106 @@
+.common-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.btn-container {
+    display: flex;
+    gap: 0;
+}
+.btn-container button {
+    background-color: #e9e6e675;
+    border: white;
+    color: grey;
+    padding: 12px 30px;
+    cursor: pointer;
+    border-radius: 20px;
+    outline: none;
+    margin: 0;
+}
+.btn-gp-container{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    border-radius: 10px;
+    background-color: #e9e6e675;
+}
+
+.btn-container button.active,
+.btn-container button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.custom-dropdown {
+    position: relative;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.dropdown-selected {
+    background-color: white;
+    border: 1px solid ;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    text-align: left;
+}
+
+.dropdown-list {
+    position: absolute;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 5px;
+    padding: 0;
+    list-style: none;
+    display: none;
+    z-index: 10;
+}
+
+.dropdown-list li {
+    padding: 10px;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+    text-align: left;
+}
+
+.dropdown-list li:hover {
+    background-color: lightgray;
+}
+
+
+.strategy-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.strategy-card {
+    display: flex;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: 5px;
+    width: 26%;
+    justify-content: space-between;
+    text-align: left;
+}
+.strategy-card .strategy-name {
+    font-weight: bold;
+    text-align: left;
+}
+.strategy-card .strategy-count {
+    text-align: right;
+    color: #999;
+    font-size: 14px;
+}

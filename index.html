@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task.css">
+    <title>Strategy Selection</title>
+</head>
+<body>
+    <div class="common-container">
+     <div class="btn-gp-container">
+        <div class="btn-container">
+            <button id="bullish-btn" class="active">Bullish</button>
+            <button id="bearish-btn">Bearish</button>
+            <button id="rangebound-btn">RangeBound</button>
+            <button id="volatile-btn">Volatile</button>
+        </div>
+     </div>
+        <div class="custom-dropdown">
+            <div class="dropdown-selected"></div>
+            <ul class="dropdown-list" style="display: none;">
+            </ul>
+        </div>
+        <div id="strategy-container" class="strategy-container"></div>
+    </div>
+
+    <script src="task.js"></script>
+</body>
+</html>
